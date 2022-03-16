@@ -1,0 +1,146 @@
+h2 {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main__header {
+  display: flex;
+  justify-content: space-between;
+}
+.send {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid tan;
+  max-width: 350px;
+  border-radius: 35px;
+}
+.clear {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid tan;
+  max-width: 350px;
+  border-radius: 35px;
+}
+.send__name {
+  padding: 20px;
+}
+.send__text--style {
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+}
+.send__button {
+  padding: 10px;
+}
+.send__button--style {
+  padding: 7px 12px;
+  border-radius: 15px;
+  border: none;
+}
+
+.send__button--style:hover {
+  background-color: rgb(105, 252, 244);
+}
+.send__button--style:active {
+  background-color: rgb(105, 218, 252);
+}
+.clear__item--style {
+  padding: 7px 12px;
+  border-radius: 15px;
+  border: none;
+}
+.clear__item--style:hover {
+  background-color: rgb(105, 252, 244);
+}
+.clear__item--style:active {
+  background-color: rgb(105, 218, 252);
+}
+.clear__all--style {
+  padding: 7px 12px;
+  border-radius: 15px;
+  border: none;
+}
+.clear__all--style:hover {
+  background-color: rgb(105, 252, 244);
+}
+.clear__all--style:active {
+  background-color: rgb(105, 218, 252);
+}
+.main__desk {
+  margin: 0 auto;
+}
+.main__desk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.list {
+  width: 30%;
+  border-radius: 15px;
+  border: 1px solid rgb(51 238 193);
+  box-shadow: 5px 4px rgb(187 225 203);
+  margin: 10px;
+  padding: 10px;
+  min-width: 50px;
+  max-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(181 233 213);
+  justify-content: flex-end;
+  align-content: flex-start;
+  align-items: center;
+}
+.list > h2 {
+  flex: 1;
+}
+.delstis {
+  border: none;
+  max-height: 20px;
+  background-color: rgb(181 233 213);
+}
+.list-cards {
+  width: 100%;
+}
+.list-cards {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.list-cards > button {
+  width: 100%;
+  height: 20px;
+  background-color: rgb(181 233 213);
+  border: none;
+}
+.edit-list {
+  right: 0;
+}
+.card {
+  display: flex;
+  position: relative;
+}
+.delistCacs {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  border: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #fff;
+  display: none;
+}
+.card > textarea {
+  width: 100%;
+  border: 1px solid black;
+}
+.card:hover > .delistCacs {
+  display: block;
+}
